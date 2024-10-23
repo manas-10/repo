@@ -1,0 +1,24 @@
+Java Program in Jenkins 
+
+enter the item name 
+free style project
+  give description on next page 
+click on advnace 
+use costume workspace
+give the path of java program saved in the pc in the directory (save the java program first in the pc )
+in Build section
+  javac Main.java
+ java main 
+these 2 commands must be written in the build section 
+click on save and build now
+error aayga the go to
+jenkins
+manage jenkins 
+global tool configuration 
+under this you will find jdk 
+jdk installation 
+paste the java jdk path in JAVA_HOME 
+name it anything and then apply save 
+go back to jenkins and  run the program 
+build now
+output is shown in console output
