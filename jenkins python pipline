@@ -1,0 +1,33 @@
+create new item select pipline
+provide the description come in pipline section 
+select pipline script then  click on try sample pipline and select hello world
+first craeta a pythong program and save it on our repo ani branch python  (python program must be ex man.py)
+now chnge the 5 line of the hello code my removing hello and pasting Checkout
+in next line there is steps om that on 7 line remove whole 7 line content 
+and go to pipline syntax in sample step go and select checout from version control 
+SCM is git provide the info of repo link and credentials   branch must be python 
+generate pipline script copy the script and paste it on 7 line 
+after leaving 2 brrackets thats of 8 and 9 line then add a line on 10 line 
+stage("Build"){
+  steps{
+  go to pipline syntax select git git in sample step give info and generate the pipline script 
+  copy it  and paste it on 12 line  
+  which will be below the stage line 
+    then on next ine 
+      go to pipline syntax   and sleect bat: windows batch script 
+      write the batchscript as python and name of the program 
+      generate the pipline script 
+      copy it and paste it on 
+      13 line 
+      }
+      }
+      on 16 line after closing these above 2 brackets new line 
+      Stage("Test"){
+        steps{
+        echo"this job has been tested"
+        }
+        }
+        apply it 
+        save it 
+        build now
+        go to console output 
