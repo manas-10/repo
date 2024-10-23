@@ -1,0 +1,12 @@
+craete item   '
+freestyle
+description
+select github project
+paste the the link of the repo 
+scroll down in source code management select git 
+provide the crdentials
+  then repository browser 
+  select github web 
+  provide the repositiry url 
+  save
+  build now
